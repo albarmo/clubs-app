@@ -1,0 +1,59 @@
+ion-slides {
+  height: 100%;
+}
+
+.container {
+  background-color: #29aecb;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.splash-text {
+  padding: 2px;
+}
+
+.splash-text h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.splash-button {
+  color: white;
+  background-color: #28aecb;
+  height: 45px;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 600;
+}
+
+/* light color */
+
+.container-white {
+  background-color: rgb(248, 248, 248);
+  height: 100%;
+  padding: 15px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.splash-text-white h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.splash-image {
+  align-items: center;
+  width: 100%;
+}
+
+#logo {
+  color: #29aecb;
+}

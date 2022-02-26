@@ -1,0 +1,77 @@
+.container-login {
+  background-color: rgb(250, 255, 255);
+  height: 100vh;
+  color: black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-login p {
+  background-color: rgb(250, 255, 255);
+  font-size: small;
+  text-transform: lowercase;
+}
+
+.container-login span {
+  background-color: rgb(250, 255, 255);
+  font-size: small;
+  text-transform: lowercase;
+  color: rgb(44, 44, 226);
+}
+
+.header-login {
+  width: 100vw;
+  height: 35%;
+  background-image: url("../materials/decoration.svg");
+  background-size: 150%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-login h1 {
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.input-container {
+  height: 25%;
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.input-container input {
+  height: 50px;
+  width: 100%;
+  background-color: #f2f3f7;
+  color: #a1a4b2;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.login-button {
+  color: white;
+  background-color: #28aecb;
+  height: 45px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.input-field {
+  margin-top: 10px;
+}
+
+.input-field label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 14px;
+}

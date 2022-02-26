@@ -1,0 +1,57 @@
+.chat-card {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  height: 85px;
+  overflow: hidden;
+  padding: 10px;
+  color: #000000;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.chat-user-image-container {
+  width: 20%;
+}
+.chat-user-image {
+  border-radius: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+.chat-content {
+  width: 70%;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: center;
+}
+
+.chat-content strong {
+  padding: 0;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.chat-content p {
+  padding: 0;
+}
+
+.chat-info {
+  font-size: x-small;
+}
+
+.time {
+  font-size: x-small;
+}
+
+.unread {
+  background: #29aecb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 20px;
+  padding: 3px;
+  color: white;
+}
